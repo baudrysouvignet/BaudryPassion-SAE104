@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid div {
+    border: solid 1px magenta;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);/* defini les colones (utilise les fraction) */
+    /*grid-template-rows: 100px 200px; defini les lignes (rare)*/
+    grid-column-gap: 10px; /* espacement des colones */
+    grid-auto-flow: column; /* permet de définir l'ordre de remplissage (colum de base)*/
+    grid-auto-columns: 10px; /* permet de spécifier les lignes a créer en cas de débordement */
+} 
+
+.grid .child {
+    grid-column: 2 / span 2; /* definir la colone ou il se place */
+    /* grid-template-rows: 2; definir la ligne ou il se place */
+}

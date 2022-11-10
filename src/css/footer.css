@@ -1,0 +1,130 @@
+footer {
+    float: left;
+    width: 80vw;
+    height: 126px;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-left: 10vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 36px 116px;
+    margin-bottom: 0px;
+    transition: 0.3s;
+}
+
+footer .filAriane {
+    height: 18px;
+    width: auto;
+    grid-row: 1;
+}
+footer .filAriane .logo {
+    height: 18px;
+    width: 18px;
+    float: left;
+}
+footer .filAriane .logo .logoFooter {
+    height: 18px;
+    width: 18px;
+}
+
+footer .filAriane .fil {
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    float: left;
+    margin-left: 10px;
+
+}
+
+footer .filAriane .fil:hover {
+    text-decoration: underline;
+}
+
+footer .contenu {
+    list-style: none;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    height: auto;
+    margin: 0 auto;
+    place-self: start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer .contenu a {
+    float: left;
+    font-size: 15px;
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+footer .contenu a:hover {
+    text-decoration: underline;
+}
+
+/* mentions légales */
+
+footer.mLclose .mentionL {
+    display: none;
+}
+
+footer.mLopen {
+    height: auto;
+    grid-template-rows: 36px 116px ;
+}
+footer .mentionL {
+    grid-column: 1 / span 2;
+    display: block;
+    grid-row: 3;
+    margin-bottom: 50px;
+
+}
+footer .mentionL h2 {
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    
+}
+footer .mentionL p {
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+footer.mLopen .contenu a#mLlink{
+    color: coral;
+}
+
+
+
+@media only screen and (max-width: 884px) {
+    footer .contenu  {
+        margin-right: 20px;
+        justify-content: flex-start;
+    }
+    footer .contenu a {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    footer .filAriane {
+        grid-column: 1 / span 2;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    footer {
+        grid-template-rows: 36px 140px;
+    }
+    footer.mLopen {
+        grid-template-rows: 36px 140px;
+    }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Liens CSS -->
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/general.css">
+    <link rel="stylesheet" href="/src/css/index.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+
+    <!-- Link font -->
+    <link rel="stylesheet" href="https://use.typekit.net/tqh7gvy.css">
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaudryPassion</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logoContent"><img src="/src/img/Logo.svg" alt="Logo BaudryPassion" class="logo"></a>
+        <nav id="menu" class="close">
+            <div class="listeHeader">
+                <a href="#">Accueil</a>
+                <a>Nos articles</a>
+                <a>Actualité en direct</a>
+                <a>Nous contacter</a>
+            </div>
+        </nav>
+        <div id="burgercontent" onclick="burgerclick()">
+            <div class="burger open" id="burger"></div>
+        </div>
+    </header>
+
+    <article>
+        <section class="iPhone big">
+            <div class="textContent">
+                <h1 class="titre">Le visage de l’iPhone</h1>
+                <h2 class="slogan">Apple réalise t-il un aveu d’échec ?</h2>
+                <button>Lire l'article</button>
+            </div>
+        </section>
+
+        <section class="oculus little">
+            <div class="textContent">
+                <h1 class="titre">Le Meta Quest Pro</h1>
+                <h2 class="slogan">Un spectacle à tout point de vue ?</h2>
+                <button>Découvrire l'arctile</button>
+            </div>
+        </section>
+
+        <section class="twitter little">
+            <div class="textContent">
+                <h1 class="titre">Le rachat de Twitter</h1>
+                <h2 class="slogan">L’oiseau, plus en forme que jamais ? </h2>
+                <button>Lire l'article</button>
+            </div>
+        </section>
+
+        <section class="tesla big">
+            <div class="textContent">
+                <h1 class="titre">Cybertruck</h1>
+                <h2 class="slogan">Reporté, pour combien de temps ?</h2>
+                <button>Consulter l'article</button>
+            </div>
+        </section>
+    </article>
+
+    <footer class="mLclose" id="footer">
+        <div class="mentionL">
+            <h2>Mentions légales.</h2>
+            <p>L'entreprise individuelle Baudry Souvignet , soucieuse des droits des individus, notamment au regard des traitements automatisés et dans une volonté de transparence avec ses clients, a mis en place une politique reprenant l'ensemble de ces traitements, des finalités poursuivies par ces derniers ainsi que des moyens d'actions à la disposition des individus afin qu'ils puissent au mieux exercer leurs droits. Pour toute information complémentaire sur la protection des données personnelles, nous vous invitons à consulter le
+                site : https://www.cnil.fr/</br></br> La poursuite de la navigation sur ce site vaut acceptation sans réserve des dispositions et conditions d'utilisation qui suivent.
+                La version actuellement en ligne de ces conditions d'utilisation est la seule opposable pendant toute la durée d'utilisation du site et jusqu'à ce qu'une nouvelle version la remplace.</p>
+        </div>
+
+        <div class="filAriane">
+            <a href="#" class="logo"><img src="/src/img/LogoResponsive.svg" class="logoFooter" alt="logo"></a>
+            <a href="#" class="fil"> > Accueil</a>
+        </div>
+        <div class="contenu">
+            <a href="#">BaudryPassion 2022</a>
+            <a id="mLlink" onclick="mentionlegale()">Mentions légales</a>
+            <a href="#">Accueil</a>
+            <a>Les artciles</a>
+            <a>Actualité en direct</a>
+            <a>Nous contacter</a>
+        </div>
+    </footer>
+</body>
+
+<script src="/src/js/burger.js"></script>
+<script src="/src/js/footer.js"></script>
+
+</html>

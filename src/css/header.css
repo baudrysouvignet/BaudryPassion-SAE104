@@ -1,0 +1,243 @@
+header {
+    z-index: 4;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+/* Grid 1 */
+header .logoContent {
+    z-index: 5;
+    cursor: pointer;
+    width: 95px;
+    height: 30px;
+    margin-left: 50px;
+    align-self: center;
+}
+header .logoContent .logo {
+    width: 95px;
+    height: 30px;
+}
+
+/* Grid 2 */
+header #menu {
+    width: 603px;
+    height: 20px;
+    align-self: center;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+header #menu .listeHeader {
+    grid-column: 2;
+    list-style: none;
+    height: 20px;
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header #menu .listeHeader a {
+    float: left;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+header #menu .listeHeader a:hover {
+    text-decoration: underline;
+}
+
+/* Burger */
+header #burgercontent {
+    grid-column: 2;
+    position: relative;
+    float: right;
+
+    margin-top: 17px;
+    margin-right: 50px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+
+    display: none;
+}
+
+header #burgercontent .burger {
+    border-radius: 1px;
+    transition: 0.3s;
+    height: 1.5px;
+    position: absolute;
+    background-color: #1D1D1B;
+}
+
+header #burgercontent .burger:after,
+.burger:before {
+    content: '';
+    position: absolute;
+    background-color: #1D1D1B;
+    transition: 0.3s;
+    border-radius: 1px;
+
+    height: 1.5px;
+}
+
+
+/* burger open  */
+header #burgercontent .burger.open {
+    top: 50%;
+    left: 7.5px;
+    width: 20px;
+}
+
+header #burgercontent .burger.open:before {
+    top: -7.5px;
+}
+
+header #burgercontent .burger.open:after {
+    top: 7.5px;
+}
+
+header #burgercontent .burger.open:after,
+.burger.open:before {
+    width: 20px;
+    height: 1.5px;
+}
+
+
+/* Burger animation */
+header #burgercontent:hover {
+    background-color: #F8F8F8;
+}
+
+header #burgercontent .burger.animation {
+    width: 1px;
+    top: 50%;
+    left: 7.5px;
+}
+
+header #burgercontent .burger.animation:before {
+    top: -3.5px;
+    left: 1px;
+    transform: rotate(46.97deg);
+}
+
+header #burgercontent .burger.animation:after {
+    top: 3.5px;
+    left: 1px;
+    transform: rotate(-46.97deg);
+}
+
+header #burgercontent .burger.animation:after,
+.burger.animation:before {
+    width: 10.26px;
+    height: 1.5px
+}
+
+
+/* Burger Close */
+header .burger.close,
+.burger.closeclick {
+    width: 0px;
+    top: 50%;
+    left: 7.5px;
+}
+
+header #burgercontent .burger.close:before,
+.burger.closeclick::before {
+    width: 20.52px;
+    top: 0px;
+    left: 0;
+    transform: rotate(46.97deg);
+}
+
+header #burgercontent .burger.close:after {
+    width: 20.52px;
+    left: 0;
+    top: 0px;
+    transform: rotate(-46.97deg);
+}
+
+header #burgercontent .burger.closeclick:after {
+    width: 10.52px;
+    left: 1px;
+    top: 3.5px;
+    transform: rotate(-46.97deg);
+}
+
+
+
+
+
+
+
+
+/* __________________________________________________________________________________
+responsive */
+
+@media only screen and (max-width: 900px) {
+    header #burgercontent {
+        z-index: 3;
+        display: block;
+        justify-self: end;
+    }
+
+    header #menu {
+        z-index: 2;
+        position: absolute;
+        width: 400px;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+        right: 0;
+        margin-right: 0;
+        transition: 0.5s;
+        top: 0;
+    }
+
+    header #menu.open {
+        transform: translateY(0%);
+    }
+
+    header #menu.close {
+        transform: translateY(100%);
+    }
+
+    header #menu .listeHeader {
+        grid-column: 2;
+        list-style: none;
+        width: 250px;
+        height: auto;
+        font-size: 25px;
+        font-family: neue-haas-grotesk-text, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin: 180px auto 0;
+    }
+
+    header #menu .listeHeader a {
+        width: auto;
+        float: left;
+        width: 250px;
+        padding-top: 50px;
+        padding-left: 0;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    header #menu {
+        z-index: 2;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+        right: 0;
+        margin-right: 0;
+        transition: 0.5s;
+    }
+}
