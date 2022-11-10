@@ -52,20 +52,26 @@ button {
     font-style: normal;
     font-size: 20px;
     border: none;
-    background-color: #F5F5F7;
     cursor: pointer;
     transition: 0.3s;
+    width: auto;
+    height: 56px;
 }
 
 button:hover {
     background-color: #f5f5f7b7;
 }
 
-article section .textContent .titre {
+article section .titre {
     font-family: neue-haas-grotesk-text, sans-serif;
     font-weight: 700;
     font-size: 60px;
     color: white;
+    grid-row: 2;
+    grid-column: 1;
+    margin-left: 50px;
+    width: 750px;
+    height: 76px;
 }
 
 article section .textContent .slogan {
@@ -73,26 +79,24 @@ article section .textContent .slogan {
     font-weight: 400;
     font-size: 30px;
     color: white;
-    margin-top: 10px;
+    height: 38px;
 }
 
 article section .textContent button {
     margin-top: 35px;
 }
 
-article section .textContent {
+article section .textContent  {
+    margin-top: 86px;
     grid-row: 2;
+    grid-column: 1;
     margin-left: 50px;
 }
 
-article section.little .textContent {
-    align-self: end;
-    margin-bottom: 50px;
-}
-
-article section.big .textContent {
+article section.little .textContent, article section.big .textConten {
     align-self: start;
 }
+
 @media only screen and (max-width: 1400px) { 
     article {
         height: calc(80vh * 4 + 60px);
@@ -111,20 +115,22 @@ article section.big .textContent {
 }
 
 @media only screen and (max-width: 900px) { 
-    article section .textContent .titre {
+    article section .titre {
         font-size: 35px;
+        height: 46px;
     }
     
-    article section .textContent .slogan {
+    article section .textContent  .slogan {
         font-size: 15px;
     }
     
-    article section .textContent button {
+    article section .textContent  button {
         font-size: 15px;
     } 
-    article section.big .textContent {
+    article section .textContent  {
         align-self: end;
         margin-bottom: 100px;
+        margin-top: 56px;
     } 
     article {
         height: calc(530px * 4 + 60px);
@@ -133,4 +139,16 @@ article section.big .textContent {
     article section {
         height: 530px !important;
     } 
+}
+
+@media only screen and (max-width: 555px) { 
+    article section .textContent  {
+        margin-left: 25px;
+        margin-top: 86px !important;
+        margin-bottom: auto !important;
+    }
+    article section .titre {
+        margin-left: 25px;
+        margin-top: 30px;
+    }
 }
