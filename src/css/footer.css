@@ -19,12 +19,12 @@ footer .filAriane {
 }
 footer .filAriane .logo {
     height: 18px;
-    width: 18px;
+    width: auto;
     float: left;
 }
 footer .filAriane .logo .logoFooter {
     height: 18px;
-    width: 18px;
+    width: auto;
 }
 
 footer .filAriane .fil {

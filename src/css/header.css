@@ -6,20 +6,20 @@ header {
     background-color: rgb(255, 255, 255);
 
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 337px 1fr;
 }
 
 /* Grid 1 */
 header .logoContent {
     z-index: 5;
     cursor: pointer;
-    width: 95px;
+    width: 287px;
     height: 30px;
     margin-left: 50px;
     align-self: center;
 }
 header .logoContent .logo {
-    width: 95px;
+    width: 287px;
     height: 30px;
 }
 
@@ -180,7 +180,7 @@ header #burgercontent .burger.closeclick:after {
 /* __________________________________________________________________________________
 responsive */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 980px) {
     header #burgercontent {
         z-index: 3;
         display: block;

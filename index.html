@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="src/css/index.css">
     <link rel="stylesheet" href="src/css/footer.css">
 
-    <!-- Link font -->
-    <link rel="stylesheet" href="https://use.typekit.net/tqh7gvy.css">
+    
 
 
     <meta charset="UTF-8">
@@ -22,7 +21,7 @@
 
 <body>
     <header>
-        <a href="#" class="logoContent"><img src="src/img/Logo.svg" alt="Logo BaudryPassion" class="logo"></a>
+        <a href="#" class="logoContent"><img src="src/img/LogoResponsive.svg"></a>
         <nav id="menu" class="close">
             <div class="listeHeader">
                 <a href="#">Accueil</a>
@@ -43,6 +42,11 @@
                 <h3 class="slogan">Apple réalise t-il un aveu d’échec ?</h3>
                 <button>Lire l'article</button>
             </div>
+            <picture>
+                <source media="(min-width: 3270px)" srcset="src/img/Iphone/Ultra.WebP 3270w">
+                <source media="(max-width: 800px)" srcset="src/img/Iphone/Mobile.WebP 800w">
+                <img src="src/img/Iphone/Descktop.webp" alt="Image de la nouvelle encoche de l'Iphone 14pro">
+            </picture>
         </section>
 
         <section class="oculus little">
@@ -51,6 +55,11 @@
                 <h3 class="slogan">Un spectacle à tout point de vue ?</h3>
                 <button>Découvrire l'arctile</button>
             </div>
+            <picture>
+                <source media="(min-width: 3270px)" srcset="src/img/QuestPro/Ultra.WebP 3270w">
+                <source media="(max-width: 800px)" srcset="src/img/QuestPro/Mobile.WebP 800w">
+                <img src="src/img/QuestPro/Desktop.webp" alt="">
+            </picture>
         </section>
 
         <section class="twitter little">
@@ -59,6 +68,11 @@
                 <h3 class="slogan">L’oiseau, plus en forme que jamais ? </h3>
                 <button>Lire l'article</button>
             </div>
+            <picture>
+                <source media="(min-width: 3270px)" srcset="src/img/Twitter/Ultra.WebP 3270w">
+                <source media="(max-width: 800px)" srcset="src/img/Twitter/Mobile.WebP 800w">
+                <img src="src/img/Twitter/Desktop.webp" alt="">
+            </picture>
         </section>
 
         <section class="tesla big">
@@ -67,6 +81,10 @@
                 <h3 class="slogan">Reporté, pour combien de temps ?</h3>
                 <button>Consulter l'article</button>
             </div>
+            <picture>
+                <source media="(max-width: 800px)" srcset="src/img/Cybertruck/Mobile.WebP 800w">
+                <img src="src/img/Cybertruck/Desktop.webp" alt="">
+            </picture>
         </section>
     </article>
 
@@ -91,7 +109,7 @@
             <a href="#" class="fil"> > Accueil</a>
         </div>
         <div class="contenu">
-            <a href="#">BaudryPassion 2022</a>
+            <a href="#">BaudrySouvignet 2022</a>
             <a id="mLlink" onclick="mentionlegale()">Mentions légales</a>
             <a href="#">Accueil</a>
             <a>Les artciles</a>
@@ -101,6 +119,9 @@
     </footer>
     <script src="src/js/burger.js"></script>
     <script src="src/js/footer.js"></script>
+
+    <!-- Link font link a la fin pour accelerer considérablement le charegement-->
+    <link rel="stylesheet" href="https://use.typekit.net/tqh7gvy.css">
 </body>
 
 </html>
