@@ -23,24 +23,24 @@ article section {
 
 article .iPhone {
     grid-column: 1 / span 2;
-    background-image: url(/src/img/iPhone.png);
+    background-image: url(src/img/iPhone.png);
     background-position: right !important;
     height: 80vh;
 }
 
 article .oculus {
     grid-column: 1;
-    background-image: url(/src/img/metaQuestPro.png);
+    background-image: url(src/img/metaQuestPro.png);
 }
 
 article .twitter {
     grid-column: 2;
-    background-image: url(/src/img/twitterElon.png);
+    background-image: url(src/img/twitterElon.png);
 }
 
 article .tesla {
     grid-column: 1 / span 2;
-    background-image: url(/src/img/tesla.png);
+    background-image: url(src/img/tesla.png);
 }
 
 button {
@@ -101,12 +101,12 @@ article section.big .textContent {
     }
     article .oculus {
         grid-column: 1 / span 2;
-        background-image: url(/src/img/metaQuestPro.png);
+        background-image: url(src/img/metaQuestPro.png);
     }
     
     article .twitter {
         grid-column: 1 / span 2;
-        background-image: url(/src/img/twitterElon.png);
+        background-image: url(src/img/twitterElon.png);
     }
 }
 
