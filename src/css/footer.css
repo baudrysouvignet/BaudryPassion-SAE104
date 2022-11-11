@@ -14,12 +14,11 @@ footer {
 
 footer .filAriane {
     height: 18px;
-    width: auto;
     grid-row: 1;
 }
 footer .filAriane .logo {
     height: 18px;
-    width: auto;
+    width: 57px;
     float: left;
 }
 footer .filAriane .logo .logoFooter {
