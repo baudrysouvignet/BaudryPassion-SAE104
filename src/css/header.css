@@ -6,20 +6,20 @@ header {
     background-color: rgb(255, 255, 255);
 
     display: grid;
-    grid-template-columns: 337px 1fr;
+    grid-template-columns: 150px 1fr;
 }
 
 /* Grid 1 */
-header .logoContent {
+header picture {
     z-index: 5;
     cursor: pointer;
-    width: 287px;
+    width: 95px;
     height: 30px;
     margin-left: 50px;
     align-self: center;
 }
-header .logoContent .logo {
-    width: 287px;
+header picture img {
+    width: 95px;
     height: 30px;
 }
 

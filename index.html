@@ -21,7 +21,10 @@
 
 <body>
     <header>
-        <a href="#" class="logoContent"><img src="src/img/LogoResponsive.svg" alt="Logo Baudry Souvignet"></a>
+        <picture>
+            <source media="(max-width: 600px)" srcset="src/img/LogoResponsive.svg 800w">
+            <img src="src/img/Logo.svg" alt="Logo Baudry Souvignet" sizes="(max-width: 600px) 95px, 95px">
+        </picture>
         <nav id="menu" class="close">
             <div class="listeHeader">
                 <a href="#">Accueil</a>
@@ -45,7 +48,7 @@
             <picture>
                 <source media="(min-width: 3270px)" srcset="src/img/Iphone/Ultra.webp 3270w">
                 <source media="(max-width: 800px)" srcset="src/img/Iphone/Mobile.webp 800w">
-                <img src="src/img/Iphone/Descktop.webp" alt="Image de la nouvelle encoche de l'Iphone 14pro">
+                <img src="src/img/Iphone/Descktop.webp" alt="Image de la nouvelle encoche de l'Iphone 14pro" sizes="">
             </picture>
         </section>
 
@@ -58,7 +61,7 @@
             <picture>
                 <source media="(min-width: 3270px)" srcset="src/img/QuestPro/Ultra.webp 3270w">
                 <source media="(max-width: 800px)" srcset="src/img/QuestPro/Mobile.webp 800w">
-                <img src="src/img/QuestPro/Desktop.webp" alt="">
+                <img src="src/img/QuestPro/Desktop.webp" alt="Image du Meta Quest Pro un casque de réalité virtuel" sizes="">
             </picture>
         </section>
 
@@ -71,7 +74,7 @@
             <picture>
                 <source media="(min-width: 3270px)" srcset="src/img/Twitter/Ultra.webp 3270w">
                 <source media="(max-width: 800px)" srcset="src/img/Twitter/Mobile.webp 800w">
-                <img src="src/img/Twitter/Desktop.webp" alt="">
+                <img src="src/img/Twitter/Desktop.webp" alt="Photo d'Elon musk" sizes="">
             </picture>
         </section>
 
@@ -83,7 +86,7 @@
             </div>
             <picture>
                 <source media="(max-width: 800px)" srcset="src/img/Cybertruck/Mobile.webp 800w">
-                <img src="src/img/Cybertruck/Desktop.webp" alt="">
+                <img src="src/img/Cybertruck/Desktop.webp" alt="Image du Cybertruck de Tesla"sizes="">
             </picture>
         </section>
     </article>
@@ -104,7 +107,7 @@
         </div>
 
         <div class="filAriane">
-            <a href="#" class="logo"><img src="src/img/LogoResponsive.svg" class="logoFooter"
+            <a href="#" class="logo"><img src="src/img/Logo.svg" class="logoFooter"
                     alt="logo BaudrySouvignet Responsive"></a>
             <a href="#" class="fil"> > Accueil</a>
         </div>
