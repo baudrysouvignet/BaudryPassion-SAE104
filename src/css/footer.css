@@ -54,7 +54,7 @@ footer .contenu {
     justify-content: center;
 }
 
-footer .contenu a {
+footer .contenu a, span {
     float: left;
     font-size: 15px;
     font-family: neue-haas-grotesk-text, sans-serif;
@@ -63,6 +63,9 @@ footer .contenu a {
     margin-right: 25px;
     margin-left: 25px;
     cursor: pointer;
+}
+span {
+    cursor:initial;
 }
 
 footer .contenu a:hover {
