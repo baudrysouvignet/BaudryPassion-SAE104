@@ -110,7 +110,7 @@ article section.little .textContent, article section.big .textConten {
 
 @media only screen and (max-width: 1400px) { 
     article {
-        height: calc(80vh * 4 + 60px);
+        height: calc(80vh * 4 + 90px);
         grid-template-columns: 1fr;
         grid-template-rows: 80vh 80vh 80vh 80vh;
     }
@@ -142,12 +142,12 @@ article section.little .textContent, article section.big .textConten {
         margin-top: 56px;
     } 
     article {
-        height: calc(530px * 4 + 60px);
+        height: 2210px;
         grid-template-rows: repeat(4, 530px);
     } 
     article section {
         height: 530px !important;
-        grid-template-rows: repeat(2, 275px) !important;
+        grid-template-rows: repeat(2, 265px) !important;
     } 
 }
 
