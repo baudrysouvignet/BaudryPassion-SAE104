@@ -125,7 +125,7 @@ footer.mLopen .contenu a#mLlink {
         justify-content: flex-start;
     }
 
-    footer .contenu a {
+    footer .contenu a, footer .contenu span{
         margin-left: 0px;
     }
 }

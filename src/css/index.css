@@ -25,6 +25,10 @@ article section img {
     height: 80vh;
     object-fit: cover;
 }
+article section:hover img {
+    transition: 0.3s;
+    filter: brightness(90%);
+}
 
 article .iPhone {
     grid-column: 1 / span 2;
