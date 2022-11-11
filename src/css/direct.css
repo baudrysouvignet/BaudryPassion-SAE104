@@ -73,10 +73,11 @@ article section h3 {
     font-family: neue-haas-grotesk-text, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 10px;
+    font-size: 15px;
     margin-left: 10%;
     margin-bottom: 20px;
     align-self: end;
+    width: 80%;
 }
 
 article section.big h2,
@@ -132,6 +133,7 @@ button:hover {
 @media only screen and (max-width: 1500px) {
     article {
         grid-template-rows: repeat(4, 409px);
+        height: 1816px;
     }
     article section.little {
         height: 409px;
@@ -190,6 +192,7 @@ button:hover {
     }
     article {
         grid-template-rows: repeat(4,510px);
+        height: 2220px;
     }
     article section.little, 
     article section.big {
