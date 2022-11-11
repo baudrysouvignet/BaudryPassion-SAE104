@@ -16,11 +16,13 @@ footer .filAriane {
     height: 18px;
     grid-row: 1;
 }
+
 footer .filAriane .logo {
     height: 18px;
     width: 57px;
     float: left;
 }
+
 footer .filAriane .logo .logoFooter {
     height: 18px;
     width: auto;
@@ -75,8 +77,9 @@ footer.mLclose .mentionL {
 
 footer.mLopen {
     height: auto;
-    grid-template-rows: 36px 116px ;
+    grid-template-rows: 36px 116px;
 }
+
 footer .mentionL {
     grid-column: 1 / span 2;
     display: block;
@@ -84,12 +87,14 @@ footer .mentionL {
     margin-bottom: 50px;
 
 }
+
 footer .mentionL h2 {
     font-family: neue-haas-grotesk-text, sans-serif;
     font-weight: 400;
     font-size: 30px;
-    
+
 }
+
 footer .mentionL p {
     font-family: neue-haas-grotesk-text, sans-serif;
     font-weight: 400;
@@ -97,21 +102,22 @@ footer .mentionL p {
     margin-top: 40px;
 }
 
-footer .mentionL p .cnillink:hover{
+footer .mentionL p .cnillink:hover {
     color: rgb(0, 113, 227);
 }
 
-footer.mLopen .contenu a#mLlink{
+footer.mLopen .contenu a#mLlink {
     color: rgb(0, 113, 227);
 }
 
 
 
 @media only screen and (max-width: 884px) {
-    footer .contenu  {
+    footer .contenu {
         margin-right: 20px;
         justify-content: flex-start;
     }
+
     footer .contenu a {
         margin-left: 0px;
     }
@@ -122,6 +128,7 @@ footer.mLopen .contenu a#mLlink{
         grid-column: 1 / span 2;
     }
 }
+
 @media only screen and (max-width: 529px) {
     footer {
         margin-bottom: 30px;
@@ -132,6 +139,7 @@ footer.mLopen .contenu a#mLlink{
     footer {
         grid-template-rows: 36px 140px;
     }
+
     footer.mLopen {
         grid-template-rows: 36px 140px;
     }
