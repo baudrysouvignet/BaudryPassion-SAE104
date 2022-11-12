@@ -7,5 +7,5 @@ function mentionlegale(){
     }else if (footer.className == "mLopen"){
         footer.className = "mLclose";
     }
-    document.getElementById("mentionL").scrollIntoView();
+    window.scrollTo(0, document.body.scrollHeight);
 }
