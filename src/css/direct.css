@@ -232,13 +232,13 @@ button:hover {
     article section.little h2,
     article section.big h2 {
         align-self: end;
-        margin-bottom: 134px;
+        margin-bottom: 155px !important;
         height: auto;
         width: 85%;
     }
     article section.little button,
     article section.big button {
-        margin-top: 131px;
+        margin-top: 113px;
     }
     article section.big img, 
     article section.little img {
