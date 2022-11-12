@@ -144,7 +144,7 @@ article section.big .textConten {
     }
 
     article section .textContent {
-        align-self: end;
+        align-self: start;
         margin-bottom: 100px;
         margin-top: 56px;
     }

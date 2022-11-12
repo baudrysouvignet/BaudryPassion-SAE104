@@ -78,7 +78,7 @@ footer .contenu a:hover {
 
 /* mentions légales */
 
-footer.mLclose .mentionL {
+footer.mLclose #mentionL {
     display: none;
 }
 
@@ -87,7 +87,7 @@ footer.mLopen {
     grid-template-rows: 36px 116px;
 }
 
-footer .mentionL {
+footer #mentionL {
     grid-column: 1 / span 2;
     display: block;
     grid-row: 3;
@@ -95,21 +95,21 @@ footer .mentionL {
 
 }
 
-footer .mentionL h2 {
+footer #mentionL h2 {
     font-family: neue-haas-grotesk-text, sans-serif;
     font-weight: 400;
     font-size: 30px;
 
 }
 
-footer .mentionL p {
+footer #mentionL p {
     font-family: neue-haas-grotesk-text, sans-serif;
     font-weight: 400;
     font-size: 15px;
     margin-top: 40px;
 }
 
-footer .mentionL p .cnillink:hover {
+footer #mentionL p .cnillink:hover {
     color: rgb(0, 113, 227);
 }
 

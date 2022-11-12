@@ -195,9 +195,6 @@ button:hover {
     article section.little button,
     article section.big button {
         font-size: 15px;
-        height: 45px;
-        width: 168px;
-        margin-top: 230px;
     }
     
 }
@@ -241,7 +238,7 @@ button:hover {
     }
     article section.little button,
     article section.big button {
-        margin-top: 136px;
+        margin-top: 131px;
     }
     article section.big img, 
     article section.little img {
