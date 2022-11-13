@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- passer les image en webp -->
+
+<head>
+    <!-- Liens CSS -->
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/general.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+
+    <link rel="stylesheet" href="src/css/news.css">
+
+
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaudryPassion</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="picturea">
+            <picture>
+                <source media="(max-width: 600px)" srcset="src/img/LogoResponsive.svg 800w" sizes="95px">
+                <img src="src/img/Logo.svg" alt="Logo Baudry Souvignet">
+            </picture>
+        </a>
+        <nav id="menu" class="close">
+            <div class="listeHeader">
+                <a href="index.html">Accueil</a>
+                <a href="nosArtciles.html">Nos articles</a>
+                <a href="#">Actualité en direct</a>
+                <a href="#">Nous contacter</a>
+            </div>
+        </nav>
+        <div id="burgercontent" onclick="burgerclick()">
+            <div class="burger open" id="burger"></div>
+        </div>
+    </header>
+
+    <h1>Le visage de l'Iphone.</h1>
+    <article class="news">
+        <h2 class="slogan">Apple réalise t-il un aveu d'échec ?</h2>
+        <h3 class="datearticle"><time datetime="2022-11-24">24 novembre 2022</time></h3>
+        <section class="contenttext">
+            <picture>
+                <img src="src/img/Iphone/Descktop.webp" alt="">
+            </picture>
+            <h2 class="text">Dynamique Island, le renouveau de l’iPhone</h2>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus
+                tortor,
+                dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula
+                massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est
+                eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae,
+                consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras
+                vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed
+                dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante
+                non diam sodales hendrerit.
+                Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar.
+                Nulla sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus
+                sapien eros vitae ligula. Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet
+                pellentesque diam. Integer quis metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit. Morbi vel erat non mauris convallis vehicula. Nulla et sapien. Integer
+                tortor tellus, aliquam faucibus, convallis id, congue eu, quam. Mauris ullamcorper felis vitae erat.
+                Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae
+                magna.
+                Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa
+                adipiscing nisl, ac euismod nibh nisl eu lectus. Fusce vulputate sem at sapien. Vivamus leo. Aliquam
+                euismod libero eu enim. Nulla nec felis sed leo placerat imperdiet. Aenean suscipit nulla in justo.
+                Suspendisse cursus rutrum augue. Nulla tincidunt tincidunt mi. Curabitur iaculis, lorem vel rhoncus
+                faucibus, felis magna fermentum augue, et ultricies lacus lorem varius purus. Curabitur eu amet
+            </p>
+        </section>
+        <section class="contenttext">
+            <picture>
+                <img src="src/img/Iphone/Descktop.webp" alt="">
+            </picture>
+            <h2 class="text">Dynamique Island, le renouveau de l’iPhone</h2>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus
+                tortor,
+                dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula
+                massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est
+                eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae,
+                consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras
+                vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed
+                dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante
+                non diam sodales hendrerit.
+                Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar.
+                Nulla sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus
+                sapien eros vitae ligula. Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet
+                pellentesque diam. Integer quis metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit. Morbi vel erat non mauris convallis vehicula. Nulla et sapien. Integer
+                tortor tellus, aliquam faucibus, convallis id, congue eu, quam. Mauris ullamcorper felis vitae erat.
+                Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae
+                magna.
+                Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa
+                adipiscing nisl, ac euismod nibh nisl eu lectus. Fusce vulputate sem at sapien. Vivamus leo. Aliquam
+                euismod libero eu enim. Nulla nec felis sed leo placerat imperdiet. Aenean suscipit nulla in justo.
+                Suspendisse cursus rutrum augue. Nulla tincidunt tincidunt mi. Curabitur iaculis, lorem vel rhoncus
+                faucibus, felis magna fermentum augue, et ultricies lacus lorem varius purus. Curabitur eu amet
+            </p>
+        </section>
+        <section class="contenttext">
+            <h2 class="text">Rédiger par:</h2>
+            <a href="https://www.instagram.com/baudrysouvignet/" target="_blank">
+                <img class="imgbaud" src="src/img/BaudryPortrait.png" alt="Portarit du rédacteur de l'article Baudry Souvignet" srcset="">
+                <h3 class="nomprenom">Baudry Souvignet</h3>
+            </a>
+        </section>
+    </article>
+
+    <footer class="mLclose" id="footer">
+        <div class="mentionL">
+            <h2>Mentions légales.</h2>
+            <p>L'entreprise individuelle de Baudry Souvignet , soucieuse des droits des individus, notamment au regard
+                des
+                traitements automatisés et dans une volonté de transparence avec ses clients, a mis en place une
+                politique reprenant l'ensemble de ces traitements, des finalités poursuivies par ces derniers ainsi que
+                des moyens d'actions à la disposition des individus afin qu'ils puissent au mieux exercer leurs droits.
+                Pour toute information complémentaire sur la protection des données personnelles, nous vous invitons à
+                consulter le
+                site : <a class="cnillink" href="https://www.cnil.fr/"
+                    target="_blank"><u>https://www.cnil.fr/</u></a><br><br> La poursuite de la navigation sur ce site
+                vaut acceptation sans
+                réserve des dispositions et conditions d'utilisation qui suivent.
+                La version actuellement en ligne de ces conditions d'utilisation est la seule opposable pendant toute la
+                durée d'utilisation du site et jusqu'à ce qu'une nouvelle version la remplace.</p>
+        </div>
+
+        <div class="filAriane">
+            <a href="index.html" class="logo"><img src="src/img/LogoResponsive.svg" class="logoFooter"
+                    alt="logo BaudrySouvignet Responsive"></a>
+            <a href="index.html" class="fil one"> > Accueil</a>
+            <a href="nosArtciles.html" class="fil"> > Nos artciles</a>
+            <a href="#" class="fil"> > iPhone</a>
+        </div>
+        <div class="contenu">
+            <span>BaudrySouvignet 2022</span>
+            <span id="mLlink" onclick="mentionlegale()">Mentions légales</span>
+            <a href="index.html">Accueil</a>
+            <a href="nosArtciles.html">Nos artciles</a>
+            <a href="actualiteendirect.html">Actualité en direct</a>
+            <a href="#">Nous contacter</a>
+        </div>
+    </footer>
+    <script src="src/js/burger.js"></script>
+    <script src="src/js/footer.js"></script>
+
+    <!-- Link font link a la fin pour accelerer considérablement le charegement-->
+    <link rel="stylesheet" href="https://use.typekit.net/tqh7gvy.css">
+</body>
+
+</html>
