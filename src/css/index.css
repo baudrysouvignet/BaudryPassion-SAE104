@@ -156,6 +156,9 @@ article section.big .textConten {
         height: 530px !important;
         grid-template-rows: repeat(2, 265px) !important;
     }
+    article section img {
+        height: 530px;
+    }
 }
 
 @media only screen and (max-width: 555px) {
