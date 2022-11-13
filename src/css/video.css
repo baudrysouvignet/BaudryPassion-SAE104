@@ -8,7 +8,7 @@ section {
 
 }
 
-section h2,section h3,section figcaption{
+section h2,section h3,section figcaption, .lien{
     z-index: 2;
     font-family: neue-haas-grotesk-text, sans-serif;
     font-style: normal;
@@ -51,7 +51,7 @@ section figure {
 }
 section  img{
     height: auto;
-    width: -webkit-fill-available;
+    width:100%;
     cursor: pointer;
     
 }

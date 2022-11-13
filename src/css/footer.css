@@ -115,8 +115,10 @@ footer .mentionL p {
 footer .mentionL p .cnillink:hover {
     color: rgb(0, 113, 227);
 }
-
-footer.mLopen .contenu a#mLlink {
+footer.mLopen .contenu span:hover {
+    color: rgb(0, 113, 227);
+}
+footer.mLopen .contenu span#mLlink {
     color: rgb(0, 113, 227);
 }
 
