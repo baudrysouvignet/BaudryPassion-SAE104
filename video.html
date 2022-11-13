@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- passer les image en webp -->
+
+<head>
+    <!-- Liens CSS -->
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/general.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+
+    <link rel="stylesheet" href="src/css/video.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaudryPassion</title>
+    <link rel="shortcut icon" href="src/img/Vector.svg" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="picturea">
+            <picture>
+                <source media="(max-width: 600px)" srcset="src/img/LogoResponsive.svg 800w" sizes="95px">
+                <img src="src/img/Logo.svg" alt="Logo Baudry Souvignet">
+            </picture>
+        </a>
+        <nav id="menu" class="close">
+            <div class="listeHeader">
+                <a href="index.html">Accueil</a>
+                <a href="#">Vidéo</a>
+                <a href="actualiteendirect.html">Actualité en direct</a>
+                <a href="#">Nous contacter</a>
+            </div>
+        </nav>
+        <div id="burgercontent" onclick="burgerclick()">
+            <div class="burger open" id="burger"></div>
+        </div>
+    </header>
+    <article>
+        <section id="video1">
+            <h2>L'échec d'Apple derrière Dynamique Island !</h2>
+            <h3>LeoDuff</h3>
+            <figure>
+                <img src="https://img.youtube.com/vi/PbcghXhfGCM/maxresdefault.jpg" alt="">
+                <figcaption>https://www.youtube.com/watch?v=PbcghXhfGCM&t=7s</figcaption>
+            </figure>
+
+        </section>
+    </article>
+
+    <footer class="mLclose" id="footer">
+        <div class="mentionL">
+            <h2>Mentions légales.</h2>
+            <p>L'entreprise individuelle de Baudry Souvignet , soucieuse des droits des individus, notamment au regard
+                des
+                traitements automatisés et dans une volonté de transparence avec ses clients, a mis en place une
+                politique reprenant l'ensemble de ces traitements, des finalités poursuivies par ces derniers ainsi que
+                des moyens d'actions à la disposition des individus afin qu'ils puissent au mieux exercer leurs droits.
+                Pour toute information complémentaire sur la protection des données personnelles, nous vous invitons à
+                consulter le
+                site : <a class="cnillink" href="https://www.cnil.fr/"
+                    target="_blank"><u>https://www.cnil.fr/</u></a><br><br> La poursuite de la navigation sur ce site
+                vaut acceptation sans
+                réserve des dispositions et conditions d'utilisation qui suivent.
+                La version actuellement en ligne de ces conditions d'utilisation est la seule opposable pendant toute la
+                durée d'utilisation du site et jusqu'à ce qu'une nouvelle version la remplace.</p>
+        </div>
+
+        <div class="filAriane">
+            <a href="index.html" class="logo"><img src="src/img/LogoResponsive.svg" class="logoFooter"
+                    alt="logo BaudrySouvignet Responsive"></a>
+            <a href="index.html" class="fil one"> > Accueil</a>
+            <a href="#" class="fil"> > Vidéo</a>
+        </div>
+        <div class="contenu">
+            <span>BaudrySouvignet 2022</span>
+            <span id="mLlink" onclick="mentionlegale()">Mentions légales</span>
+            <a href="index.html">Accueil</a>
+            <a href="#">Vidéo</a>
+            <a href="actualiteendirect.html">Actualité en direct</a>
+            <a href="#">Nous contacter</a>
+        </div>
+    </footer>
+    <script src="src/js/burger.js"></script>
+    <script src="src/js/footer.js"></script>
+
+    <!-- Link font link a la fin pour accelerer considérablement le charegement-->
+    <link rel="stylesheet" href="https://use.typekit.net/tqh7gvy.css">
+</body>
+
+</html>
