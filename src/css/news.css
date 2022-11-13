@@ -28,8 +28,7 @@ h1 {
     margin-left: 5vw;
 }
 
-.news,
-.rider {
+.news {
     width: 80vw;
     height: auto;
     margin-left: 10vw;
@@ -65,12 +64,14 @@ h1 {
     font-size: 20px;
     margin-top: 20px;
 }
+.contenttext {
+    height: fit-content;
+}
 
 .news section .imgbaud,
 .news section .nomprenom {
     width: 100px;
     height: 100px;
-    margin-left: 5vw;
 }
 
 .news section .imgbaud {
@@ -89,6 +90,10 @@ h1 {
 }
 
 @media only screen and (max-width: 760px) {
+    .news {
+        width: 100vw;
+        margin-left: 0vw;
+    }
     .datearticle,
     h1,
     h2 {
@@ -97,31 +102,33 @@ h1 {
 
     h1 {
         font-size: 35px;
-        margin-left: 10vw;
+        margin-left: 5vw;
     }
 
     .slogan {
         font-size: 20px;
+        margin-left: 5vw;
     }
 
     .news section .text {
-        width: 80vw;
-        margin-left: 0vw;
+        margin-left: 5vw;
+        width: 90vw;
     }
 
+    .news section p { 
+        font-size: 15px;
+    }
     .news section h2 {
         font-size: 30px;
-    }
-
-    .news section p {
-        font-size: 15px;
+        margin-left: 5vw;
     }
 
     .news section picture img {
-        height: 500px;
+        width: 100vw;
+        height: 400px;
     }
     .news section .imgbaud,
     .news section .nomprenom {
-        margin-left: 0vw;
+        margin-left: 5vw;
     }
 }
