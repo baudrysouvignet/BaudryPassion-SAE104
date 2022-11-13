@@ -133,8 +133,8 @@ button {
     font-size: 20px;
     border: none;
     cursor: pointer;
-    width: 194px;
-    height: 56px;
+    width: fit-content;
+    height: fit-content;
     color: rgb(255, 255, 255);
     margin-left: 10%;
 }

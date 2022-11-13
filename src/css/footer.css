@@ -78,6 +78,9 @@ footer .contenu a:hover {
 
 /* mentions légales */
 
+#mLlink:hover {
+    text-decoration: underline;
+}
 footer.mLclose .mentionL {
     display: none;
 }

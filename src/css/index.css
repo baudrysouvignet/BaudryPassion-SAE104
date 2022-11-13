@@ -64,8 +64,10 @@ button {
     border: none;
     cursor: pointer;
     transition: 0.3s;
-    width: auto;
-    height: 56px;
+    width: fit-content;
+    height: fit-content;
+    z-index: 2;
+    margin-top: 35px;
     color: rgb(0, 113, 227);
 }
 
@@ -93,11 +95,6 @@ article section .textContent .slogan {
     font-size: 30px;
     color: white;
     height: 38px;
-}
-
-article section .textContent button {
-    z-index: 2;
-    margin-top: 35px;
 }
 
 article section .textContent {
@@ -141,6 +138,7 @@ article section.big .textConten {
 
     article section .textContent button {
         font-size: 15px;
+        margin-top: 15px;
     }
 
     article section .textContent {
