@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="src/css/general.css">
     <link rel="stylesheet" href="src/css/footer.css">
 
-    <link rel="stylesheet" href="src/css/direct.css">
+    <link rel="stylesheet" href="src/css/contact.css">
 
     
 
@@ -31,7 +31,7 @@
             <div class="listeHeader">
                 <a href="index.html">Accueil</a>
                 <a href="video.html">Vidéo</a>
-                <a href="#">Actualité en direct</a>
+                <a href="actualiteendirect.html">Actualité en direct</a>
                 <a href="contact.html">Nous contacter</a>
             </div>
         </nav>
@@ -40,50 +40,24 @@
         </div>
     </header>
 
-    <h1>Dernières annonces</h1>
     <article>
-        <section class="big">
-            <h2>Remarkable 2, on prend bonne note ! </h2>
-            <button onclick="javascript:window.open('https://www.senioractu.com/Remarkable-2-on-prend-bonne-note-_a24795.html', '_blank');" class="black">Lire l'article</button>
-            <h3>Par <a href="https://www.senioractu.com" target="_blank"><u><i>Senioractu.com</i></u></a>, verifié par BaudryPassionⒸ</h3>
-            <picture>
-                <source media="(min-width: 3270px)" srcset="src/img/Remarkable/Ultra.webp 3270w" sizes="80vw">
-                <source media="(max-width: 800px)" srcset="src/img/Remarkable/Mobile.webp 800w" sizes="80vw">
-                <img src="src/img/Remarkable/Desktop.webp" alt="Image de la tablette remarkable">
-            </picture>
-        </section>
-        <section class="little">
-            <h2>Tesla rappelle son Cyberquad.</h2>
-            <button onclick="javascript:window.open('https://www.begeek.fr/tesla-oblige-de-rappeler-son-cyberquad-for-kids-374926', '_blank');" class="black">Lire l'article</button>
-            <h3>Par <a href="https://www.begeek.fr" target="_blank"><u><i>begeek.fr</i></u></a>, verifié par BaudryPassionⒸ</h3>
-            <picture>
-                <source media="(max-width: 800px)" srcset="src/img/Cyberqaud/Mobile.webp 800w" sizes="80vw">
-                <img src="src/img/Cyberqaud/Desktop.webp" alt="Photo du quand de tesla le CyberQuad">
-            </picture>
-        </section>
-        <section class="little">
-            <h2>YouTube, un nouveau design.</h2>
-            <button onclick="javascript:window.open('https://www.blogdumoderateur.com/youtube-nouveau-design-fonctionnalites/', '_blank');" class="black">Lire l'article</button>
-            <h3>Par <a href="https://www.blogdumoderateur.com" target="_blank"><u><i>blogdumoderateur.com</i></u></a>, verifié par BaudryPassionⒸ</h3>
-            <picture>
-                <source media="(min-width: 3270px)" srcset="src/img/Youtube/Ultra.webp 3270w" sizes="80vw">
-                <source media="(max-width: 800px)" srcset="src/img/Youtube/Mobile.webp 800w" sizes="80vw">
-                <img src="src/img/Youtube/Desktop.webp" alt="Image de la nouvelle interface de youtube">
-            </picture>
-        </section>
-        <section class="big">
-            <h2>Musique classique sur TikTok.</h2>
-            <button onclick="javascript:window.open('https://newsroom.tiktok.com/fr-fr/la-musique-classique-atteint-un-nouveau-sommet-sur-tiktok-avec-hans-zimmer', '_blank');" class="black">Lire l'article</button>
-            <h3>Par <a href="https://newsroom.tiktok.com" target="_blank"><u><i>tiktok.com</i></u></a>, verifié par BaudryPassionⒸ</h3>
-            <picture>
-                <source media="(min-width: 3270px)" srcset="src/img/HansZimmer/Ultra.webp 3270w" sizes="80vw">
-                <source media="(max-width: 800px)" srcset="src/img/HansZimmer/Mobile.webp 800w" sizes="80vw">
-                <img src="src/img/HansZimmer/Desktop.webp" alt="Image du compositeur Hans Zimmer">
-            </picture>
-        </section>
+        <h1>Contactez nous</h1>
+        <h2>Nous vous remercions de prendre le temps de nous communiquez votre retoure sur notre site.</h2>
+        <form class="formulaire" action="" method="get">
+            <label for="fname">Prénom</label><br>
+            <input class="inputname" type="text" id="fname" name="fname" value="Baudry">
+
+            <label for="fmail">Mail</label><br>
+            <input type="mail" id="fmail" name="fmail" value="exemple@baudysouvignet.fr">
+
+            <label for="msg">Message</label><br>
+            <input type="text" id="msg" name="msg" value="Bonjour, ">
+
+            <input type="submit" value="Envoyer le formulaire">
+        </form>
     </article>
 
-    <footer class="mLclose" id="footer">
+    <!-- <footer class="mLclose" id="footer">
         <div class="mentionL">
             <h2>Mentions légales.</h2>
             <p>L'entreprise individuelle de Baudry Souvignet , soucieuse des droits des individus, notamment au regard des
@@ -109,10 +83,10 @@
             <span id="mLlink" onclick="mentionlegale()">Mentions légales</span>
             <a href="index.html">Accueil</a>
             <a href="video.html">Vidéo</a>
-            <a href="#">Actualité en direct</a>
+            <a href="actualiteendirect.html">Actualité en direct</a>
             <a href="contact.html">Nous contacter</a>
         </div>
-    </footer>
+    </footer> -->
     <script src="src/js/burger.js"></script>
     <script src="src/js/footer.js"></script>
 
